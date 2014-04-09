@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lista unidades</title>
+</head>
+<body>
+	<h2>Lista Unidades</h2>
+	<ul>
+		{% for unidad in Unidades %}
+			 <li>{{unidad.marca}}</li>
+			 <li>{{unidad.modelo}}</li>
+			 <li>{{unidad.ano}}</li>
+			 <br>
+		{% endfor %}
+	</ul>
+	
+</body>
+</html>

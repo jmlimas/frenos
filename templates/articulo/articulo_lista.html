@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lista de Articulos</title>
+</head>
+<body>
+	<h2>Articulos Activos</h2>
+	<ul>
+		{% for articulo in Articulos %}
+			<li>{{articulo.clave}}</li>
+			<li>{{articulo.nombre}}</li>
+			<li>{{articulo.precio}}</li>
+			<br>		
+		{% endfor %}
+	</ul>
+	
+</body>
+</html>

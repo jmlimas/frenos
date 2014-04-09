@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Unidad Nueva</title>
+</head>
+<body>
+	<h2>Unidad Nueva</h2>
+	<form action="" method="post">{% csrf_token %}
+		{{form.as_p}}
+		<input type="submit" value="Guardar">
+	</form>	
+</body>
+</html>
